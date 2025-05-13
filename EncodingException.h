@@ -6,8 +6,7 @@
 
 class EncodingException : public std::runtime_error {
 public:
-    explicit EncodingException(const std::string& message)
-        : std::runtime_error(message) {}
+    explicit EncodingException(const std::string& message);
 };
 
 #endif // ENCODING_EXCEPTION_H

@@ -8,7 +8,7 @@
 class EncodingStrategy
 {
 public:
-    virtual ~EncodingStrategy() = default; /// fix this (arba suprast)
+    virtual ~EncodingStrategy() = default;
     virtual std::string encode(const std::string& text) const = 0;
 };
 

@@ -8,7 +8,7 @@ Bazine klase EncodingStrategy apibrezia kodavimo pasirinkimo strategija,
 o konkretus ReverseEncoding, LeetSpeakEncoding ja igyvendina.
 Pastovi klase TextEncoder deleguoja teksto kodavima.
 
-Using Makefile: creates main.exe and tests.exe files.
+Using Makefile: creates main.exe and test.exe files.
 */
 
 #ifndef TEXT_ENCODER_H
