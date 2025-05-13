@@ -10,7 +10,7 @@ TARGET_TEST = test
 MODULE = libtextencoder.a
 
 # Source files
-SRC = TextEncoder.cpp ReverseEncoding.cpp LeetSpeakEncoding.cpp
+SRC = ReverseEncoding.cpp LeetSpeakEncoding.cpp
 DEMO_SRC = main.cpp
 TEST_SRC = test.cpp
 
